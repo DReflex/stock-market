@@ -18,7 +18,7 @@ mongoose.Promise = global.Promise;
 
 app.use(bodyParser.json());
 var server = app.listen(process.env.PORT || 4000, function(){
-    console.log('listening for requests on port 4000');
+    console.log(`server listen on ${process.env.PORT || 4000}`);
 });
 
 
