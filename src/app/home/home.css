@@ -108,3 +108,11 @@ body{
   top:10px;
   color:rgb(40, 26, 26);
 }
+@media screen and (max-width: 720px){
+  .search{
+    width:80%;
+  }
+  .results{
+    width:80%;
+  }
+}
