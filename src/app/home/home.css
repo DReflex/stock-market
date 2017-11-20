@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(50, 50, 50);
+  margin:0;
+  padding:0;
+}
+.title-bar{
+  margin:auto;
+  text-align: center;
+  color: rgb(201, 201, 201);
+}
+.market-chart{
+  width:90%;
+  height: auto;
+  background-color:rgb(34, 34, 34);
+  margin:20px auto;
+
+}
+.chart{
+  width:95%;
+  margin: auto;
+  background-color: rgb(50, 50, 50);
+  margin-top: 30px;
+  border:1px solid rgb(157, 157, 157);
+  display: flex;
+  flex-direction: column;
+}
+.search{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: row;
+  width:25%;
+  padding:30px;
+  background-color: rgb(247, 225, 205);
+  border:1px solid rgb(5, 166, 79);
+  border-left: 6px solid rgb(5, 166, 79);
+  margin:10px auto;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+}
+.btn-info{
+  background-color: rgb(5, 166, 79);
+  border-color: rgb(5, 166, 79);
+  border-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.btn-info:hover{
+  background-color: rgb(0, 224, 103);
+  border-color: rgb(0, 224, 103);
+}
+.btn-info:focus{
+  background-color: rgb(0, 224, 103);
+  border-color: rgb(0, 224, 103);
+}
+.btn-info:active{
+  background-color: rgb(0, 224, 103);
+  border-color: rgb(0, 224, 103);
+}
+.btn-info:active:focus{
+  background-color: rgb(0, 224, 103);
+  border-color: rgb(0, 224, 103);
+}
+.btn-info:active:hover{
+  background-color: rgb(0, 224, 103);
+  border-color: rgb(0, 224, 103);
+}
+.search input {
+  width:75%;
+  outline:none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border:2px solid rgb(5, 166, 79);
+  background:rgb(255, 255, 255);
+  color:#000;
+  padding:5px 10px;
+}
+.result-container{
+  width:80%;
+  display: flex;
+  margin:auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.results{
+  width:30%;
+  padding:10px 15px;
+  margin:5px 10px;
+  background-color: rgb(214, 214, 227);
+  border:2px solid rgb(61, 0, 0);
+  border-left: 6px solid rgb(61, 0, 0);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+  color:rgb(52, 10, 10);
+  box-sizing: border-box;
+  position: relative;
+}
+.results p{
+  color:rgb(68, 54, 54);
+  width:90%;
+  font-size: 14px;
+}
+.results span{
+  position:absolute;
+  right:10px;
+  top:10px;
+  color:rgb(40, 26, 26);
+}
