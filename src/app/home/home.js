@@ -67,7 +67,6 @@ class Home extends React.Component{
       this.props.dispatch(resQ())
       fetch('/api/stock', {
         method: 'POST',
-        mode: 'CORS',
         body: JSON.stringify({
           name,
           desc,
